@@ -11,8 +11,11 @@
 }
   
 .project-page img {
-    width: 70%;
-    height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    image-rendering: auto;
 }
   
 .project-page h3 {

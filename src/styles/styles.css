@@ -1,12 +1,14 @@
 @font-face {
     font-family: "Neue-Haas-Roman";
-    src: local("Neue-Haas-Roman"), url("./fonts/NeueHaasDisplay-Roman.eot") format('eot'),
+    src: local("Neue-Haas-Roman"), url("./fonts/NeueHaasDisplay-Roman.woff2") format('woff2'),
+                                   url("./fonts/NeueHaasDisplay-Roman.eot") format('eot'),
                                    url("./fonts/NeueHaasDisplay-Roman.woff") format('woff'),
                                    url("./fonts/NeueHaasDisplay-Roman.ttf") format('truetype'); 
 }
 @font-face {
     font-family: "Neue-Haas-Bold";
-    src: local("Neue-Haas-Bold"), url("./fonts/NeueHaasDisplay-Medium.eot") format('eot'),
+    src: local("Neue-Haas-Bold"), url("./fonts/NeueHaasDisplay-Medium.woff2") format('woff2'),
+                                  url("./fonts/NeueHaasDisplay-Medium.eot") format('eot'),
                                   url("./fonts/NeueHaasDisplay-Medium.woff") format('woff'),
                                   url("./fonts/NeueHaasDisplay-Medium.ttf") format('truetype'); 
 }

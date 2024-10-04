@@ -1,9 +1,10 @@
 import React from "react";
 import { Route, Routes } from 'react-router-dom';
-import Home from "./pages/Home"
+import Home from "./pages/Home";
 import Header from "./components/Header";
 import ProjectPage from './pages/ProjectPage'; // New page for individual project
-import "./styles/App.css"
+import NotFound from './components/NotFound';
+import "./styles/App.css";
 import Projects from "./pages/Projects";
 
 export function ApplicationAccessRoutes(){
@@ -13,6 +14,7 @@ export function ApplicationAccessRoutes(){
                     <Route path="/" element={<Home />}/>
                     <Route path="/proyectos/:title" element={<ProjectPage />} />
                     <Route path="/proyectos" element={<Projects />} />
+                    <Route path="*" element={<NotFound />} />
                 </Routes>
         )
     }
