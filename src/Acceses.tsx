@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, Routes} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home"
 import Header from "./components/Header";
 import ProjectPage from './pages/ProjectPage'; // New page for individual project
@@ -13,10 +13,6 @@ export function ApplicationAccessRoutes(){
                     <Route path="/" element={<Home />}/>
                     <Route path="/proyectos/:title" element={<ProjectPage />} />
                     <Route path="/proyectos" element={<Projects />} />
-                    {/* <Route path="/contact" element={
-                            <Contact />}/>
-                    <Route path="/writings" element={
-                            <Writings />}/> */}
                 </Routes>
         )
     }
