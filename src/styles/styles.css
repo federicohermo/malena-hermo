@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Neue-Haas-Roman";
+    src: local("Neue-Haas-Roman"), url("./fonts/NeueHaasDisplay-Roman.eot") format('eot'),
+                                   url("./fonts/NeueHaasDisplay-Roman.woff") format('woff'),
+                                   url("./fonts/NeueHaasDisplay-Roman.ttf") format('truetype'); 
+}
+@font-face {
+    font-family: "Neue-Haas-Bold";
+    src: local("Neue-Haas-Bold"), url("./fonts/NeueHaasDisplay-Medium.eot") format('eot'),
+                                  url("./fonts/NeueHaasDisplay-Medium.woff") format('woff'),
+                                  url("./fonts/NeueHaasDisplay-Medium.ttf") format('truetype'); 
+}
+:root {
+    /* -----Fuentes---- */
+    --akzidenz: "Neue-Haas-Roman", "Helvetica", sans-serif;
+    --akzidenz-bold: "Neue-Haas-Bold", "Helvetica", sans-serif;
+    --zirkon: "GT-Zirkon-Regular", "Inter", sans-serif;
+
+    /*------Tamaño de Fuentes----*/
+    --xs-font-size: 1rem;
+    --s-font-size: 1.175rem;
+    --m-font-size: 1.25rem;
+    --l-font-size: 1.375rem;
+    --xl-font-size: 2rem;
+}

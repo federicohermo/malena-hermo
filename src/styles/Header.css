@@ -1,0 +1,76 @@
+/* styles/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: -webkit-fill-available; /* For WebKit-based browsers like Chrome, Safari */
+    width: fill-available; /* For most modern browsers */
+    width: -moz-available; /* For Firefox */
+    padding: 1rem 2rem;
+    font-family: var(--akzidenz-bold), sans-serif;
+    font-size: var(--m-font-size);
+    letter-spacing: 0.15rem;
+    background-color: white;
+    z-index: 100000 !important;
+}
+
+.header.transparent {
+    position: relative;
+    color: transparent;
+    background-color: transparent;
+    z-index: 1 !important;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 20;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    cursor: pointer;
+    z-index: 20;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+  
+.expand-text {
+    display: inline-flex;
+    align-items: center;
+}
+  
+.letter {
+    display: inline-block;
+    position: relative;
+}
+  
+.letter-rest {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    transition: width 0.3s ease-in-out;
+    opacity: 0;
+}
+  
+.expand-text.hovered .letter-rest.malena {
+    width: 60px; /* Adjust based on actual size */
+    opacity: 1;
+    margin-right: 10px;
+}
+  
+.expand-text.hovered .letter-rest.hermo {
+    width: 55px; /* Adjust based on actual size */
+    opacity: 1;
+}

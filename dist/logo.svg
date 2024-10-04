@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1189 1169.56">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: NeueHaasDisplay-Roman, 'Neue Haas Grotesk Display Pro';
+        font-size: 700px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x=".5" y=".5" width="1188" height="1168.56"/>
+  <text class="cls-1" transform="translate(61 824.06)"><tspan x="0" y="0">MH</tspan></text>
+</svg>

@@ -1,0 +1,22 @@
+/* styles/SearchBar.css */
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-family: var(--akzidenz);
+    font-size: var(--l-font-size);
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+.search-bar input:focus::placeholder {
+    color: transparent;
+}
+  

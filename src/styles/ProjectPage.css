@@ -1,0 +1,26 @@
+/* ProjectPage.css */
+
+.project-page {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 2rem;
+}
+  
+.project-page img {
+    width: 70%;
+    height: 100%;
+}
+  
+.project-page h3 {
+    font-size: var(--l-font-size);
+    margin-bottom: 1rem;
+}
+  
+.project-page p {
+    font-size: 1.2rem;
+}
+  
