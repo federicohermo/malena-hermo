@@ -9,7 +9,7 @@ module.exports = {
   entry: './src/index.tsx', // Your entry point file
   output: {
     path: path.resolve(__dirname, 'dist'), // Output directory
-    filename: 'bundle.js', // Output file name
+    filename: '/proyectos/bundle.js', // Output file name
     publicPath: '/proyectos/',
   },
   resolve: {
