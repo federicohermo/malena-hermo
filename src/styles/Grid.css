@@ -18,12 +18,17 @@
     transform: scale(1.05); /* Hover effect */
 }
 
+/* .grid-image-container {
+    background-color: hsl(0, 0%, 96%);
+} */
+
 .grid-image {
     width: 100%;
     height: auto;
     object-fit: cover;
     filter: blur(0.2px);
     image-rendering: auto;
+    mix-blend-mode: multiply;
 }
 
 .grid-title {

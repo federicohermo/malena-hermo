@@ -4,7 +4,8 @@
         "title": "Trabajo de Representación", 
         "description": "Arquitectura I - 2020", 
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/67f556110272519.5fe8f3d6695f1.jpg", 
-        "link": "/proyectos/Trabajo-de-Representacion-Arquitectura-I" ,
+        "imageUrls": [],
+        "link": "/Trabajo-de-Representacion-Arquitectura-I" ,
         "tags": []
     },
     { 
@@ -12,14 +13,17 @@
         "title": "Estudio Morfológico", 
         "description": "Morfología I - 2020", 
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/1d59fa110272961.5fe8f714e5d65.jpg", 
-        "link": "/proyectos/Morfologia-I" ,
+        "imageUrls": [],
+        "link": "/Morfologia-I" ,
         "tags": []
     },
     { 
         "id": 3, 
         "title": "Casa Taller", 
         "description": "Arquitectura I - 2020", 
-        "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6aecf0110273123.5fe8f875ea3b7.gif", "link": "/proyectos/Casa-Taller-Arquitectura-I" ,
+        "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6aecf0110273123.5fe8f875ea3b7.gif", 
+        "imageUrls": [],
+        "link": "/Casa-Taller-Arquitectura-I" ,
         "tags": []
     },
     { 
@@ -27,7 +31,8 @@
         "title": "Pabellón", 
         "description": "Arquitectura I - 2020", 
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/618e51110273333.5fe8fa1dc89fe.jpg", 
-        "link": "/proyectos/Pabellon-Arquitectura-I",
+        "imageUrls": [],
+        "link": "/Pabellon-Arquitectura-I",
         "tags": []
     },
     { 
@@ -35,7 +40,8 @@
         "title": "Representación Arquitectonica", 
         "description": "2020", 
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/cc2217110273605.5fe8fbf5411ca.jpg", 
-        "link": "/proyectos/Pabellon-Arquitectura-I",
+        "imageUrls": [],
+        "link": "/Pabellon-Arquitectura-I",
         "tags": []
     },
     {
@@ -43,7 +49,8 @@
         "title": "Entrega Primer Cuatrimeste",
         "description": "Arquitectura II - 2021",
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/7a18e5124570727.6107263c41988.jpg",
-        "link": "/proyectos/Entrega-1er-cuatrimestre-A2",
+        "imageUrls": [],
+        "link": "/Entrega-1er-cuatrimestre-A2",
         "tags": []
     },
     {
@@ -51,7 +58,8 @@
         "title": "Entrega Segundo Cuatrimeste",
         "description": "Arquitectura II - 2021",
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/46ac9d136605177.61fc4242adebb.jpg",
-        "link": "/proyectos/Arquitectura-2-Entrega-2do-cuatrimestre",
+        "imageUrls": [],
+        "link": "/Arquitectura-2-Entrega-2do-cuatrimestre",
         "tags": []
     },
     {
@@ -59,7 +67,8 @@
         "title": "Estudio de esquinas y paradigmas",
         "description": "Morfología II - 2023",
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/043353172776541.64851ccaa6683.jpg",
-        "link": "/proyectos/Morfologia-II-Estudio-de-esquinas-y-paradigmas",
+        "imageUrls": [],
+        "link": "/Morfologia-II-Estudio-de-esquinas-y-paradigmas",
         "tags": []
     },
     {
@@ -67,7 +76,8 @@
         "title": "(RE)Mapeos Del Paisaje",
         "description": "Pasantía de Investigación LINA - 2023",
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/08c34e172776521.64851c8d663e4.jpg",
-        "link": "/proyectos/Pasantia-de-investigacion-LINA-ReMapeo-de-Paisaje",
+        "imageUrls": [],
+        "link": "/Pasantia-de-investigacion-LINA-ReMapeo-de-Paisaje",
         "tags": []
     },
     {
@@ -75,7 +85,8 @@
         "title": "Public Condenser",
         "description": "Modelado 3D | MUOTO - 2023",
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/75cbd7177212985.64d2653501d83.png",
-        "link": "/proyectos/Modelado-3D-Public-Condenser-MUOTO",
+        "imageUrls": [],
+        "link": "/Modelado-3D-Public-Condenser-MUOTO",
         "tags": []
     },
     {
@@ -83,7 +94,8 @@
         "title": "Sede INJUVE",
         "description": "Jury | Arquitectura III - 2023",
         "miniatureUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/168d4a185954143.656d3b34381a6.jpg", 
-        "link": "/proyectos/Sede-INJUVE-Jury-Arquitectura-3",
+        "imageUrls": [],
+        "link": "/Sede-INJUVE-Jury-Arquitectura-3",
         "tags": []
     }
 ]
