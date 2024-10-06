@@ -74,3 +74,15 @@
     width: 55px; /* Adjust based on actual size */
     opacity: 1;
 }
+
+@media (max-width: 926px) {
+    .letter-rest.malena {
+        width: 60px; /* Adjust based on actual size */
+        opacity: 1;
+        margin-right: 10px;
+    }
+    .letter-rest.hermo {
+        width: 55px; /* Adjust based on actual size */
+        opacity: 1;
+    }
+}
