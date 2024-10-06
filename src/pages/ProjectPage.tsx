@@ -19,9 +19,12 @@ const ProjectPage: React.FC = () => {
 
     return (
         <div className="project-page">
-            <img src={project.miniatureUrl} alt={project.title} />
             <h3>{project.title}</h3>
             <p>{project.description}</p>
+            {project.imageUrls && project.imageUrls.length > 0 ? project.imageUrls.map((imageUrl: string) => {
+                return <img src={imageUrl} alt={project.title}/>
+            }) :
+            <img src={project.miniatureUrl} alt={project.title} />}
         </div>
     );
 };
