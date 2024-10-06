@@ -12,8 +12,9 @@ export function ApplicationAccessRoutes(){
         return(
                 <Routes>
                     <Route path="/" element={<Home />}/>
-                    <Route path="/:title" element={<ProjectPage />} />
-                    <Route path="/proyectos" element={<Projects />} />
+                    <Route path="/proyectos" element={<Projects />} >
+                        <Route path=":title" element={<ProjectPage />} />
+                    </Route>
                     <Route path="*" element={<NotFound />} />
                 </Routes>
         )
