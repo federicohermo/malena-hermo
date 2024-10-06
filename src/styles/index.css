@@ -1,10 +1,12 @@
 @import url('./styles.css');
+@import url('./utility.css');
 
 body {
   margin: 0;
-  font-family: var(--akzidenz); /* 'Helvetica Neue',*/
+  font-family: var(--quicksand); /* 'Helvetica Neue',*/
   font-stretch: 100%;
   font-kerning: auto;
+  letter-spacing: 0.1rem;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

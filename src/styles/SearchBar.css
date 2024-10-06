@@ -9,11 +9,17 @@
 .search-bar input {
     width: 100%;
     padding: 10px;
-    font-family: var(--akzidenz);
-    font-size: var(--l-font-size);
+    font-family: "Quicksand", sans-serif;
+    font-size: var(--xl-font-size);
+    letter-spacing: 0.15rem;
     border: none;
     border-bottom: 1px solid gray;
     outline: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.search-bar input:hover {
+    font-weight: bold;
 }
 
 .search-bar input:focus::placeholder {

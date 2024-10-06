@@ -30,7 +30,7 @@ const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
             {projects.slice().reverse().map((project) => (
                 <div key={project.id} className="grid-item" onClick={() => handleProjectClick(project.title)}>
                     <img src={project.miniatureUrl} alt={project.title} className="grid-image" />
-                    <div className="grid-title">{project.title}</div>
+                    <div className="grid-title">{project.title.toUpperCase()}</div>
                     <div className="grid-description">{project.description}</div>
                 </div>
             ))}

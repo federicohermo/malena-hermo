@@ -22,7 +22,8 @@
 .menu-content {
     padding: 50px;
     color: black;
-    font-family: var(--akzidenz)
+    font-family: var(--quicksand);
+    font-weight: lighter;
 }
 
 .menu-content ul {
@@ -46,11 +47,16 @@
 .menu-content ul li a {
     color: black;
     text-decoration: none;
-    font-size: var(--xl-font-size);
+    font-size: var(--xxl-font-size);
     transition: color 0.1s ease-in-out;
 }
 
 .menu-content ul li a:hover {
     color: rgba(0, 0, 0, 0.5);
+}
+
+.networks li a:hover {
+    color: black !important;
+    font-weight: 500;
 }
   

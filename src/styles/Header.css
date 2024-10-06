@@ -8,10 +8,11 @@
     width: -webkit-fill-available; /* For WebKit-based browsers like Chrome, Safari */
     width: fill-available; /* For most modern browsers */
     width: -moz-available; /* For Firefox */
-    padding: 1rem 2rem;
-    font-family: var(--akzidenz-bold), sans-serif;
-    font-size: var(--m-font-size);
-    letter-spacing: 0.15rem;
+    padding: 2rem 2rem;
+    font-family: var(--quicksand), sans-serif;
+    font-weight: 600;
+    font-size: var(--l-font-size);
+    letter-spacing: 0.05rem;
     background-color: white;
     z-index: 100000 !important;
 }
@@ -65,24 +66,24 @@
 }
   
 .expand-text.hovered .letter-rest.malena {
-    width: 60px; /* Adjust based on actual size */
+    width: 63px; /* Adjust based on actual size */
     opacity: 1;
     margin-right: 10px;
 }
   
 .expand-text.hovered .letter-rest.hermo {
-    width: 55px; /* Adjust based on actual size */
+    width: 58px; /* Adjust based on actual size */
     opacity: 1;
 }
 
 @media (max-width: 926px) {
     .letter-rest.malena {
-        width: 60px; /* Adjust based on actual size */
+        width: 63px; /* Adjust based on actual size */
         opacity: 1;
         margin-right: 10px;
     }
     .letter-rest.hermo {
-        width: 55px; /* Adjust based on actual size */
+        width: 58px; /* Adjust based on actual size */
         opacity: 1;
     }
 }

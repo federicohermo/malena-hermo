@@ -1,7 +1,8 @@
 // pages/ProjectPage.tsx
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import projects from '../data/Projects.json'; // Import the JSON file
+import NotFound from '../components/NotFound';
 import '../styles/ProjectPage.css'
 
 const ProjectPage: React.FC = () => {
@@ -11,8 +12,10 @@ const ProjectPage: React.FC = () => {
     const project = projects.find((project) => project.title.toLowerCase().replace(/\s+/g, '-') === title);
 
     if (!project) {
-        return <div>Project not found</div>;
+        return <NotFound />;
     }
+
+    useEffect(()=>{console.log(title)})
 
     return (
         <div className="project-page">
