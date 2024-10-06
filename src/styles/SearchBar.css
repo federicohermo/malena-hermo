@@ -19,7 +19,7 @@
 }
 
 .search-bar input:hover {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .search-bar input:focus::placeholder {

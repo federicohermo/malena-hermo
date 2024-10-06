@@ -16,9 +16,9 @@ const Menu: React.FC<MenuProps> = ({ isOpen }) => {
             <li><a href="/escritos">Escritos</a></li>
           </ul>
           <ul className='networks'>
-            <li><a href="https://www.instagram.com/meresundas/" target="_blank" rel="noreferrer">Instagram -<i className='arrow right'></i></a></li>
-            <li><a href="https://www.linkedin.com/in/malena-hermo-fandi%C3%B1o-b3b992231/" target="_blank" rel="noreferrer">LinkedIn -<i className='arrow right'></i></a></li>
-            <li><a href="https://www.behance.net/malenahermo" target="_blank" rel="noreferrer">Behance -<i className='arrow right'></i></a></li>
+            <li><a href="https://www.instagram.com/meresundas/" target="_blank" rel="noreferrer">Instagram →</a></li>
+            <li><a href="https://www.linkedin.com/in/malena-hermo-fandi%C3%B1o-b3b992231/" target="_blank" rel="noreferrer">LinkedIn →</a></li>
+            <li><a href="https://www.behance.net/malenahermo" target="_blank" rel="noreferrer">Behance →</a></li>
           </ul>
         </div>
     </div>
