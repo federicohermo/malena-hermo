@@ -20,7 +20,7 @@ const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
     const handleProjectClick = (title: string) => {
         // Generate dynamic URL using the project title
         const urlTitle = title.toLowerCase().replace(/\s+/g, '-'); // Convert title to URL-friendly format
-        navigate(`/proyectos/${urlTitle}`);
+        navigate(`/${urlTitle}`);
     };
 
     /*"https://mir-s3-cdn-cf.behance.net/projects/404/b33fa1185954143.Y3JvcCwxMzgwLDEwODAsMjczLDA.jpg", INJUVE MINIATURA*/
