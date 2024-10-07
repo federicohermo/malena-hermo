@@ -1,19 +1,22 @@
 import React from 'react';
-import ImageGrid from "../components/ProjectsGrid";
+import Grid from "../components/Grid";
 import { Outlet, useParams } from 'react-router-dom';
-import writingsData from '../data/Writings.json'
+import data from "../data/Data.json"
 
 
-const Projects: React.FC = () => {
+const Writings: React.FC = () => {
     // Example data for the grid
-    const writings = writingsData;
+    const writings = data.filter(item => item.route.includes("escritos"));
     const { title } = useParams<{ title: string }>();
 
     return (
-        <div className="projects">
-            Writings
+        <div className="writings">
+            {title !== undefined ?
+            <Outlet />
+            :
+            <Grid data={writings} />}
         </div>
     );
 };
 
-export default Projects;
+export default Writings;

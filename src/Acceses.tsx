@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import ProjectPage from './pages/ProjectPage'; // New page for individual project
+import WritingPage from './pages/WritingPage'; // New page for individual writing
 import NotFound from './components/NotFound';
 import Projects from "./pages/Projects";
 import Writings from "./pages/Writings"
@@ -18,6 +19,7 @@ export function ApplicationAccessRoutes(){
                         <Route path=":title" element={<ProjectPage />} />
                     </Route>
                     <Route path="/escritos" element={<Writings />}>
+                        <Route path=":title" element={<WritingPage />} />
                     </Route>
                     <Route path="*" element={<NotFound route=""/>} />
                 </Routes>

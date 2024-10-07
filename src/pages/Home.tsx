@@ -2,17 +2,17 @@
 import React, { useState } from 'react';
 import Navigation from "../components/Navigation";
 import SearchBar from "../components/SearchBar";
-import ProjectsGrid from "../components/ProjectsGrid";
-import projectData from "../data/Projects.json";
+import Grid from "../components/Grid";
+import data from "../data/Data.json";
 
 const Home: React.FC = () => {
     const [searchQuery, setSearchQuery] = useState<string>(''); // State to store the search query
-    const projects = projectData;
+    const items = data;
 
-    // Filter the projects based on the search query (matching title, description, or tags)
-    const filteredProjects = projects.filter((project) => {
+    // Filter the items based on the search query (matching title, description, or tags)
+    const filteredData = items.filter((item) => {
         const searchTerm = searchQuery.toLowerCase();
-        const { title, description, tags } = project;
+        const { title, description, tags } = item;
         return (
             title.toLowerCase().includes(searchTerm) ||
             description.toLowerCase().includes(searchTerm) ||
@@ -26,7 +26,7 @@ const Home: React.FC = () => {
             {/* Pass the search handler to SearchBar */}
             <SearchBar setSearchQuery={setSearchQuery} />
             {/* Pass the filtered projects to the ProjectsGrid */}
-            <ProjectsGrid projects={filteredProjects} />
+            <Grid data={filteredData} />
         </div>
     );
 };

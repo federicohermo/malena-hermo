@@ -1,20 +1,20 @@
 import React from 'react';
-import ImageGrid from "../components/ProjectsGrid";
-import projectData from "../data/Projects.json"
+import Grid from "../components/Grid";
 import { Outlet, useParams } from 'react-router-dom';
+import data from "../data/Data.json"
 
 
 const Projects: React.FC = () => {
     // Example data for the grid
-    const projects = projectData;
+    const projects = data.filter(item => item.route.includes("proyectos"));
     const { title } = useParams<{ title: string }>();
-    
+
     return (
         <div className="projects">
             {title !== undefined ?
             <Outlet />
             :
-            <ImageGrid projects={projects} /> }
+            <Grid data={projects}/> }
         </div>
     );
 };

@@ -18,9 +18,11 @@
     transform: scale(1.05); /* Hover effect */
 }
 
-/* .grid-image-container {
+.grid-image-container {
+    display: flex;
+    justify-content: center;
     background-color: hsl(0, 0%, 96%);
-} */
+}
 
 .grid-image {
     width: 100%;
@@ -28,7 +30,11 @@
     object-fit: cover;
     filter: blur(0.2px);
     image-rendering: auto;
-    mix-blend-mode: multiply;
+}
+
+.grid-quote {
+    width: 40%;
+    font-weight: 400;
 }
 
 .grid-title {

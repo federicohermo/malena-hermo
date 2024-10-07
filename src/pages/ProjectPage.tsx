@@ -1,7 +1,7 @@
 // pages/ProjectPage.tsx
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import projects from '../data/Projects.json'; // Import the JSON file
+import projects from '../data/Data.json'; // Import the JSON file
 import NotFound from '../components/NotFound';
 import '../styles/ProjectPage.css'
 
@@ -19,10 +19,10 @@ const ProjectPage: React.FC = () => {
         <div className="project-page">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            {project.imageUrls && project.imageUrls.length > 0 ? project.imageUrls.map((imageUrl: string) => {
-                return <img src={imageUrl} alt={project.title}/>
+            {project.content && project.content.length > 0 ? project.content.map((content: string) => {
+                return <img src={content} alt={project.title}/>
             }) :
-            <img src={project.miniatureUrl} alt={project.title} />}
+            <img src={project.miniature} alt={project.title} />}
         </div>
     );
 };

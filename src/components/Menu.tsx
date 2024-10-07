@@ -12,8 +12,8 @@ const Menu: React.FC<MenuProps> = ({ isOpen }) => {
         <div className="menu-content">
           <ul className='main'>
             <li><a href="/proyectos">Proyectos</a></li>
-            <li><a href="/contacto">Contacto</a></li>
             <li><a href="/escritos">Escritos</a></li>
+            <li><a href="/contacto">Contacto</a></li>
           </ul>
           <ul className='networks'>
             <li><a href="https://www.instagram.com/meresundas/" target="_blank" rel="noreferrer">Instagram →</a></li>

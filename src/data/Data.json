@@ -1,0 +1,110 @@
+[
+    { 
+        "id": 1, 
+        "title": "Trabajo de Representación", 
+        "description": "Arquitectura I - 2020", 
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/67f556110272519.5fe8f3d6695f1.jpg", 
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    { 
+        "id": 2, 
+        "title": "Estudio Morfológico", 
+        "description": "Morfología I - 2020", 
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/1d59fa110272961.5fe8f714e5d65.jpg", 
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    { 
+        "id": 3, 
+        "title": "Casa Taller", 
+        "description": "Arquitectura I - 2020", 
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6aecf0110273123.5fe8f875ea3b7.gif", 
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    { 
+        "id": 4, 
+        "title": "Pabellón", 
+        "description": "Arquitectura I - 2020", 
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/618e51110273333.5fe8fa1dc89fe.jpg", 
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    { 
+        "id": 5, 
+        "title": "Representación Arquitectonica", 
+        "description": "2020", 
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/cc2217110273605.5fe8fbf5411ca.jpg", 
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    {
+        "id": 6,
+        "title": "Entrega Primer Cuatrimeste",
+        "description": "Arquitectura II - 2021",
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/7a18e5124570727.6107263c41988.jpg",
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    {
+        "id": 7,
+        "title": "Entrega Segundo Cuatrimeste",
+        "description": "Arquitectura II - 2021",
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/46ac9d136605177.61fc4242adebb.jpg",
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    {
+        "id": 8,
+        "title": "Estudio de esquinas y paradigmas",
+        "description": "Morfología II - 2023",
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/043353172776541.64851ccaa6683.jpg",
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    {
+        "id": 9,
+        "title": "(RE)Mapeos Del Paisaje",
+        "description": "Pasantía de Investigación LINA - 2023",
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/08c34e172776521.64851c8d663e4.jpg",
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    {
+        "id": 10,
+        "title": "Public Condenser",
+        "description": "Modelado 3D | MUOTO - 2023",
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/75cbd7177212985.64d2653501d83.png",
+        "content": [],
+        "tags": [],
+        "route": "proyectos"
+    },
+    {
+        "id": 11,
+        "title": "Centro INJUVE",
+        "description": "Jury | Arquitectura III - 2023",
+        "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/168d4a185954143.656d3b34381a6.jpg", 
+        "content": ["https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/628f84185954143.656d3b342e100.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0ac2d9185954143.656d3b3436931.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2f502c185954143.656d3b3440494.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/be2b15185954143.656d3b343c504.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b258ba185954143.656d3b34325ac.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c4c70185954143.656d3b343ab88.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9a76a3185954143.656d3b3438b3a.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7676e0185954143.656d3b343b811.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3016f0185954143.656d3b342cdba.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0fd040185954143.656d3b3433c17.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d57caa185954143.656d3b343193a.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9d67da185954143.656d3b343d150.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5d6265185954143.656d3b34394d7.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cc4636185954143.656d3b3437537.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/822458185954143.656d3b342d790.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b33d3185954143.656d3b343323b.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/168d4a185954143.656d3b34381a6.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/51948e185954143.656d3b342f6d4.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e5a801185954143.656d3b342ed2d.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/524554185954143.656d3b343e020.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/187a01185954143.656d3b3435fe0.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/dd6d91185954143.656d3b3430796.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0be8f1185954143.656d3b343537b.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2980e0185954143.656d3b343a1a2.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ce8737185954143.656d3b34345e5.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/06f698185954143.656d3b343ec8e.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ffadc8185954143.656d3b343fa0a.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5356d8185954143.656d3b3440f96.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9b9a82185954143.656d3b3444164.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3bb11f185954143.656d3b3443411.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2783fe185954143.656d3b3441be8.jpg", "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3457c5185954143.656d3b3442800.jpg"],
+        "tags": [],
+        "route": "proyectos"
+    },
+    {
+        "id": 12,
+        "title": "Concepto Asíntota",
+        "description": "Ensayo - 2024",
+        "miniature": "Entre el cinismo y la mentira, elijo el absurdo",
+        "content": ["La asíntota es una recta que se acerca indefinidamente a una curva sin llegar nunca a tocarla.", "La asíntota con la curva a la que persigue, según su definición de Wikipedia, 'se aproximan continuamente (…); es decir que la distancia entre las dos tiende a ser cero (0), a medida que se extienden indefinidamente, en otras palabras, tienden a estar juntas en el infinito.'", "La asíntota no vale menos por no alcanzar a la curva, es funcional por su incapacidad infinita de llegar a ese objetivo que busca.", "Creo que es una idea que sirve para pensar conceptos abstractos como la verdad, lo objetivo, la utopía.", "El humano por naturaleza y obligatoriamente es un ser mentiroso, hipócrita, subjetivo en su mirada y que siempre está más cerca de lo distópico. Esto no significa necesariamente que no debamos tratar todos los días de ser lo más verdaderos posibles, lo menos hipócrita posibles, lo más objetivos posibles y que debemos dejar de caminar hacia lo ideal.", "Creo que mucha gente se queda estancada en la idea de que la utopía, la verdad y lo objetivo son abstractos a los que nunca se llega y cae en la idea cínica de que, si nunca vamos a llegar, ¿para qué intentar?", "Otra gente sigue creyendo que estos son conceptos alcanzables, incluso, que ellos ya alcanzaron algunos, por lo tanto, ya no tienen que buscarlos ni acercarse a ellos, porque ya están ahí.", "Entre el cinismo y la mentira, elijo el absurdo. Creo que vale la pena el absurdo.", "Tal vez lo más sencillo es dejar atrás para ciertas cosas el 'soy' y empezar a decir 'trato de ser'. Mucho más creíble una persona que te dice que 'trata de no ser hipócrita' y 'trata de ser objetivo' a una que te afirma con total seguridad 'no soy hipócrita' y 'soy objetivo'. Uno de los dos quiera o no, miente.", "Incluso si siempre tratamos de ser autenticos, de decir la verdad y mostrarnos lo mas real posible, esta cantado que siempre en algún punto vamos a mentir queramos o no, por falla o por cobardía. Así será toda mi vida, un eterno apunte a un abstracto que cada vez que me acerco se aleja un poco más.", "Cada vez más creo que la vida vale la pena por esas luchas que parecen interminables, como la asíntota entiendo que siempre voy a estar separada de la curva, pero elijo estar junto a ella en el infinito."],
+        "tags": [],
+        "route": "escritos"
+    }
+]
