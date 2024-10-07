@@ -9,7 +9,7 @@
 .search-bar input {
     width: 100%;
     padding: 10px;
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--quicksand);
     font-size: var(--xl-font-size);
     letter-spacing: 0.15rem;
     border: none;

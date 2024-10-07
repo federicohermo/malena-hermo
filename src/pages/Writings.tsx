@@ -1,20 +1,17 @@
 import React from 'react';
 import ImageGrid from "../components/ProjectsGrid";
-import projectData from "../data/Projects.json"
 import { Outlet, useParams } from 'react-router-dom';
+import writingsData from '../data/Writings.json'
 
 
 const Projects: React.FC = () => {
     // Example data for the grid
-    const projects = projectData;
+    const writings = writingsData;
     const { title } = useParams<{ title: string }>();
-    
+
     return (
         <div className="projects">
-            {title !== undefined ?
-            <Outlet />
-            :
-            <ImageGrid projects={projects} /> }
+            Writings
         </div>
     );
 };

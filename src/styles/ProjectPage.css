@@ -3,6 +3,7 @@
 .project-page {
     padding: 20px;
     max-width: 100%;
+    min-height: calc(100vh - 176px);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -21,6 +22,7 @@
 .project-page h3 {
     font-size: var(--l-font-size);
     margin-bottom: 1rem;
+    font-weight: 400;
 }
   
 .project-page p {

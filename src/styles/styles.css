@@ -14,9 +14,9 @@
 }
 :root {
     /* -----Fuentes---- */
-    --neue-haas-roman: "Neue-Haas-Roman", "Helvetica", sans-serif;
-    --neue-haas-bold: "Neue-Haas-Bold", "Helvetica", sans-serif;
-    --zirkon: "GT-Zirkon-Regular", "Inter", sans-serif;
+    --neue-haas-roman: "Neue-Haas-Roman", sans-serif;
+    --neue-haas-bold: "Neue-Haas-Bold", sans-serif;
+    --work-sans: "Work Sans", sans-serif;
     --quicksand: "Quicksand", sans-serif;
 
     /*------Tamaño de Fuentes----*/

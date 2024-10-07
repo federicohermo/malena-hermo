@@ -4,8 +4,10 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import ProjectPage from './pages/ProjectPage'; // New page for individual project
 import NotFound from './components/NotFound';
-import "./styles/App.css";
 import Projects from "./pages/Projects";
+import Writings from "./pages/Writings"
+import "./styles/App.css";
+
 
 export function ApplicationAccessRoutes(){
     const AvailableRoutes =()=>{
@@ -15,7 +17,9 @@ export function ApplicationAccessRoutes(){
                     <Route path="/proyectos" element={<Projects />} >
                         <Route path=":title" element={<ProjectPage />} />
                     </Route>
-                    <Route path="*" element={<NotFound />} />
+                    <Route path="/escritos" element={<Writings />}>
+                    </Route>
+                    <Route path="*" element={<NotFound route=""/>} />
                 </Routes>
         )
     }
