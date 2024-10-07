@@ -19,7 +19,7 @@ const WritingPage: React.FC = () => {
         <div className="writing-page">
             <h3>{writing.title}</h3>
             <p>{writing.content && writing.content.length > 0 && writing.content.map((paragraph: string) => {
-                return <>{paragraph} <br/></>
+                return <>{paragraph} <br/> <br/></>
             })}</p>
         </div>
     );
