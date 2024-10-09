@@ -1,5 +1,6 @@
 // pages/ProjectPage.tsx
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
 import { useParams } from 'react-router-dom';
 import writings from '../data/Data.json'; // Import the JSON file
 import NotFound from '../components/NotFound';
@@ -15,12 +16,30 @@ const WritingPage: React.FC = () => {
         return <NotFound route='escritos'/>;
     }
 
+    // Custom link component to open in a new tab
+    const MarkdownLink = (props: any) => {
+        return (
+            <a href={props.href} target="_blank" rel="noopener noreferrer">
+                {props.children}
+            </a>
+        );
+    };
+
     return (
         <div className="writing-page">
             <h3>{writing.title}</h3>
-            <p>{writing.content && writing.content.length > 0 && writing.content.map((paragraph: string) => {
-                return <>{paragraph} <br/> <br/></>
-            })}</p>
+            <div>
+                {writing.content && writing.content.length > 0 && writing.content.map((paragraph: string, index: number) => (
+                    <ReactMarkdown 
+                        key={index}
+                        components={{
+                            a: MarkdownLink,  // Override the rendering of <a> tags
+                        }}
+                    >
+                        {paragraph}
+                    </ReactMarkdown>
+                ))}
+            </div>
         </div>
     );
 };

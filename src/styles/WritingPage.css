@@ -2,7 +2,7 @@
 
 .writing-page {
     padding: 20px;
-    max-width: 100%;
+    max-width: 80%;
     min-height: calc(100vh - 176px);
     margin: 0 auto;
     display: flex;
@@ -21,12 +21,18 @@
   
 .writing-page h3 {
     font-size: var(--l-font-size);
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     font-weight: 400;
 }
   
 .writing-page p {
     font-size: 1.2rem;
     text-align: start;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+}
+
+.writing-page p a {
+    color: black;
 }
   
