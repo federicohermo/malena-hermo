@@ -40,7 +40,7 @@ const Header: React.FC<HeaderProps> = ({ display }) => {
         </a>
       </div>
       <div className={`menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-        {isOpen ? 'Close' : 'Menu'}
+        {isOpen ? 'Cerrar' : 'Menu'}
       </div>
       <Menu isOpen={isOpen} />
     </header>
