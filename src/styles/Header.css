@@ -9,8 +9,7 @@
     width: fill-available; /* For most modern browsers */
     width: -moz-available; /* For Firefox */
     padding: 2rem 2rem;
-    font-family: var(--neue-haas-roman), sans-serif;
-    font-weight: 600;
+    font-family: var(--geometric-medium), sans-serif;
     font-size: var(--l-font-size);
     letter-spacing: 0.05rem;
     background-color: white;
@@ -66,24 +65,24 @@
 }
   
 .expand-text.hovered .letter-rest.malena {
-    width: 57px; /* Adjust based on actual size */
+    width: 78px; /* Adjust based on actual size */
     opacity: 1;
     margin-right: 10px;
 }
   
 .expand-text.hovered .letter-rest.hermo {
-    width: 54px; /* Adjust based on actual size */
+    width: 62px; /* Adjust based on actual size */
     opacity: 1;
 }
 
 @media (max-width: 926px) {
     .letter-rest.malena {
-        width: 57px; /* Adjust based on actual size */
+        width: 78px; /* Adjust based on actual size */
         opacity: 1;
         margin-right: 10px;
     }
     .letter-rest.hermo {
-        width: 54px; /* Adjust based on actual size */
+        width: 62px; /* Adjust based on actual size */
         opacity: 1;
     }
 }

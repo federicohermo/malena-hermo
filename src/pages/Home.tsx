@@ -12,11 +12,12 @@ const Home: React.FC = () => {
     // Filter the items based on the search query (matching title, description, or tags)
     const filteredData = items.filter((item) => {
         const searchTerm = searchQuery.toLowerCase();
-        const { title, description, tags } = item;
+        const { title, description, tags, year } = item;
         return (
             title.toLowerCase().includes(searchTerm) ||
             description.toLowerCase().includes(searchTerm) ||
-            (tags && tags.some((tag: string) => tag.toLowerCase().includes(searchTerm)))
+            (tags && tags.some((tag: string) => tag.toLowerCase().includes(searchTerm))) ||
+            year.includes(searchTerm)
         );
     });
 
@@ -26,7 +27,7 @@ const Home: React.FC = () => {
             {/* Pass the search handler to SearchBar */}
             <SearchBar setSearchQuery={setSearchQuery} />
             {/* Pass the filtered projects to the ProjectsGrid */}
-            <Grid data={filteredData} />
+            <Grid data={filteredData} isHome={true} />
         </div>
     );
 };

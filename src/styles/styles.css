@@ -12,10 +12,22 @@
                                   url("./fonts/NeueHaasDisplay-Medium.woff") format('woff'),
                                   url("./fonts/NeueHaasDisplay-Medium.ttf") format('truetype'); 
 }
+@font-face {
+    font-family: "Geometric-Regular";
+    src: local("Geometric-Regular"), url("./fonts/geometric620-n-regular.woff2") format('woff2'),
+                                  url("./fonts/geometric620-n-regular.woff") format('woff'); 
+}
+@font-face {
+    font-family: "Geometric-Medium";
+    src: local("Geometric-Medium"), url("./fonts/geometric620-n-medium.woff2") format('woff2'),
+                                  url("./fonts/geometric620-n-medium.woff") format('woff'); 
+}
 :root {
     /* -----Fuentes---- */
     --neue-haas-roman: "Neue-Haas-Roman", sans-serif;
     --neue-haas-bold: "Neue-Haas-Bold", sans-serif;
+    --geometric-regular: "Geometric-Regular", sans-serif;
+    --geometric-medium: "Geometric-Medium", sans-serif;
 
     /*------Tamaño de Fuentes----*/
     --xs-font-size: 1rem;
