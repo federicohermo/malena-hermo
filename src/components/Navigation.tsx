@@ -5,8 +5,8 @@ import '../styles/Navigation.css';
 // Defining an array of category strings
 const categories: string[] = [
   "Proyectos", "Prácticas", "Exhibiciones", "Escritos", 
-  "Charlas", "Sustentabilidad", "Interiores", 
-  "Objetos", "Espacios Artísticos", "Cultural", "Hospitales", "..."
+  "Dibujos", "Sustentabilidad", "Interiores", 
+  "Objetos", "Espacios Artísticos", "Cultural", "Pasantías", "..."
 ];
 
 const Navigation: React.FC = () => {

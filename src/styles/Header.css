@@ -65,7 +65,7 @@
 }
   
 .expand-text.hovered .letter-rest.malena {
-    width: 78px; /* Adjust based on actual size */
+    width: 76px; /* Adjust based on actual size */
     opacity: 1;
     margin-right: 10px;
 }
@@ -77,7 +77,7 @@
 
 @media (max-width: 926px) {
     .letter-rest.malena {
-        width: 78px; /* Adjust based on actual size */
+        width: 76px; /* Adjust based on actual size */
         opacity: 1;
         margin-right: 10px;
     }
