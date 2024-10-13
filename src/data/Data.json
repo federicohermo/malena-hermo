@@ -5,7 +5,7 @@
         "description": "Arquitectura I", 
         "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/67f556110272519.5fe8f3d6695f1.jpg", 
         "content": [],
-        "tags": [],
+        "tags": ["croquis"],
         "year": "2020",
         "route": "proyectos"
     },
@@ -15,7 +15,7 @@
         "description": "Morfología I", 
         "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/1d59fa110272961.5fe8f714e5d65.jpg", 
         "content": [],
-        "tags": [],
+        "tags": ["croquis"],
         "year": "2020",
         "route": "proyectos"
     },
@@ -25,7 +25,7 @@
         "description": "Arquitectura I", 
         "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6aecf0110273123.5fe8f875ea3b7.gif", 
         "content": [],
-        "tags": [],
+        "tags": ["croquis"],
         "year": "2020",
         "route": "proyectos"
     },
@@ -35,7 +35,7 @@
         "description": "Arquitectura I", 
         "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/618e51110273333.5fe8fa1dc89fe.jpg", 
         "content": [],
-        "tags": [],
+        "tags": ["croquis"],
         "year": "2020",
         "route": "proyectos"
     },
@@ -45,7 +45,7 @@
         "description": "2020", 
         "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/cc2217110273605.5fe8fbf5411ca.jpg", 
         "content": [],
-        "tags": [],
+        "tags": ["croquis"],
         "year": "2020",
         "route": "proyectos"
     },
@@ -75,7 +75,7 @@
         "description": "Morfología II",
         "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/043353172776541.64851ccaa6683.jpg",
         "content": [],
-        "tags": [],
+        "tags": ["croquis"],
         "year": "2023",
         "route": "proyectos"
     },
@@ -85,7 +85,7 @@
         "description": "Pasantía de Investigación LINA",
         "miniature": "https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/08c34e172776521.64851c8d663e4.jpg",
         "content": [],
-        "tags": [],
+        "tags": ["pasantía"],
         "year": "2023",
         "route": "proyectos"
     },

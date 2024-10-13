@@ -6,8 +6,11 @@ import ProjectPage from './pages/ProjectPage'; // New page for individual projec
 import WritingPage from './pages/WritingPage'; // New page for individual writing
 import NotFound from './components/NotFound';
 import Projects from "./pages/Projects";
-import Writings from "./pages/Writings"
+import Writings from "./pages/Writings";
+import Drawings from "./pages/Drawings";
+import Internships from "./pages/Internships";
 import "./styles/App.css";
+import Contact from "./pages/Contact";
 
 
 export function ApplicationAccessRoutes(){
@@ -21,6 +24,9 @@ export function ApplicationAccessRoutes(){
                     <Route path="/escritos" element={<Writings />}>
                         <Route path=":title" element={<WritingPage />} />
                     </Route>
+                    <Route path="/contacto" element={<Contact />}/>
+                    <Route path="/croquis" element={<Drawings />} />
+                    <Route path="/pasantías" element={<Internships />} />
                     <Route path="*" element={<NotFound route=""/>} />
                 </Routes>
         )

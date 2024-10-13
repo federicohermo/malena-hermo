@@ -4,8 +4,8 @@ import '../styles/Navigation.css';
 
 // Defining an array of category strings
 const categories: string[] = [
-  "Proyectos", "Prácticas", "Exhibiciones", "Escritos", 
-  "Dibujos", "Sustentabilidad", "Interiores", 
+  "Proyectos", "Pasantías", "Exhibiciones", "Escritos", 
+  "Croquis", "Sustentabilidad", "Interiores", 
   "Objetos", "Espacios Artísticos", "Cultural", "Pasantías", "..."
 ];
 

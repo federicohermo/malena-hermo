@@ -1,0 +1,47 @@
+.email-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.email-form form div label {
+    font-size: var(--l-font-size);
+}
+
+.email-form form div input,
+.email-form form div textarea {
+    padding: 10px;
+    font-size: var(--m-font-size);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: var(--geometric-regular);
+}
+
+.email-form form button {
+    border: none;
+    background: none;
+    font-size: var(--l-font-size);
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 2rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.email-form form button:hover {
+    text-decoration: underline;
+}
+
+.form-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4rem;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}

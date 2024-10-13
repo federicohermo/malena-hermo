@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
             {title !== undefined ?
             <Outlet />
             :
-            <Grid data={projects}/> }
+            <Grid data={projects} isHome={false} /> }
         </div>
     );
 };

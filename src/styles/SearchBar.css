@@ -29,4 +29,10 @@
 .search-bar input:focus {
     font-family: var(--geometric-regular);
 }
+
+@media (max-width: 500px) {
+    .search-bar input {
+        font-size: var(--xs-font-size);
+    }
+}
   
