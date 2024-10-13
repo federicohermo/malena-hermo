@@ -1,23 +1,25 @@
 // src/components/EmailForm.tsx
 import React, { useState } from 'react';
-import '../styles/EmailForm.css'
+import '../styles/EmailForm.css';
 
-// Define the email form data type
 interface EmailData {
   sender: string;
   subject: string;
   message: string;
 }
 
-const EmailForm: React.FC = () => {
+// Define props for the EmailForm
+interface EmailFormProps {
+  handleSubmit: (emailData: EmailData) => Promise<void>; // Passing form submission logic via props
+}
+
+const EmailForm: React.FC<EmailFormProps> = ({ handleSubmit }) => {
   // State to handle form input with typed EmailData
   const [emailData, setEmailData] = useState<EmailData>({
     sender: '',
     subject: '',
     message: ''
   });
-
-  const [responseMessage, setResponseMessage] = useState<string>('');
 
   // Handle form input changes
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -28,35 +30,15 @@ const EmailForm: React.FC = () => {
     }));
   };
 
-  // Handle form submission
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  // Wrap the form submission to handle it with the prop function
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    // Make a POST request to the FastAPI backend
-    try {
-      const response = await fetch('http://127.0.0.1:8000/send-email/', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(emailData) // Send email data as JSON
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        setResponseMessage('Email sent successfully!');
-      } else {
-        const errorData = await response.json();
-        setResponseMessage(`Error: ${errorData.detail}`);
-      }
-    } catch (error) {
-      setResponseMessage('An error occurred while sending the email.');
-    }
+    await handleSubmit(emailData);
   };
 
   return (
     <div className='email-form'>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={onSubmit}>
         <div className='form-elements'>
             <div className='form-element'>
                 <label htmlFor="sender">E-mail   :</label>
@@ -94,10 +76,9 @@ const EmailForm: React.FC = () => {
             </div>
         </div>
 
-        <button type="submit">Send →</button>
-      </form>
+        <button type="submit">Enviar →</button>
 
-      {responseMessage && <p>{responseMessage}</p>}
+      </form>
     </div>
   );
 };

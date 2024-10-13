@@ -10,7 +10,9 @@
     transition: opacity 0.75s ease-in-out, visibility 0.8s ease-in-out;
     visibility: hidden;
     opacity: 0;
-    overflow: hidden;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
     z-index: 10;
 }
 
@@ -20,7 +22,7 @@
 }
 
 .menu-content {
-    padding: 92px;
+    padding: 75px;
     color: black;
     font-family: var(--geometric-regular);
     font-weight: lighter;

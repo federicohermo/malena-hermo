@@ -13,7 +13,9 @@ const Menu: React.FC<MenuProps> = ({ isOpen }) => {
           <ul className='main'>
             <li><a href="/proyectos">Proyectos</a></li>
             <li><a href="/escritos">Escritos</a></li>
-            <li><a href="/dibujos">Dibujos</a></li>
+            <li><a href="/pasntías">Pasantías</a></li>
+            <li><a href="/croquis">Croquis</a></li>
+            <br/>
             <li><a href="/contacto">Contacto</a></li>
           </ul>
           <ul className='networks'>
